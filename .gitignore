@@ -1,7 +1,14 @@
 .DS_Store
 
 # Ignore everything in the src directory
-src/*
+src/**
 
-# Except for the src/app directory
+# Re-include directories under src/app/code/Komoju/Payments and subdirectories
+!src/
+!src/app/
+!src/app/code/
 !src/app/code/Komoju/
+!src/app/code/Komoju/**
+
+# Ignore everything in the src directory
+src/**/.DS_Store

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<csp_whitelist>
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="komoju-script" type="host">https://multipay.komoju.com</value>
+                <value id="komoju-script-extra" type="host">https://multipay.komoju.com/extras/error-reporting/</value>
+                <value id="komoju-script-css" type="host">https://multipay.komoju.com/static/</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="komoju-style" type="host">https://multipay.komoju.com/static/shared.css</value>
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="komoju-images" type="host">https://komoju.com</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="komoju-connect" type="host">https://komoju.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

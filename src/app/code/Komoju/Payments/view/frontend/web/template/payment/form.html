@@ -7,28 +7,43 @@
 <!-- ko if: showTitle() -->
   <h3 data-bind="text: getTitle()"></h3>
 <!-- /ko -->
+
+<!-- ko if: isDataLoaded() -->
 <!-- ko foreach: { data: getEnabledPaymentTypes(), as: 'method' } -->
-  <div class="payment-method"
-      data-bind="
-      css: {'_active': (($parent.komojuMethod() == method.value) && ($parent.getCode() == $parent.isChecked()))},
-      attr: { id: method.value + '-node' }
-      ">
-      <div class="payment-method-title field choice">
-          <input type="radio"
-                 name="payment[method]"
-                 class="radio"
-                 data-bind="
-                 attr: {'id': method.value},
-                 value: method.value,
-                 checked: $parent.komojuMethod,
-                 click: $parent.selectPaymentMethod.bind($parent),
-                 visible: $parent.isRadioButtonVisible()
-                 "/>
-          <label class="label" data-bind="attr: {'for': method.value}">
-              <span data-bind="text: method.displayText"></span>
-          </label>
-      </div>
-  </div>
+<div class="payment-method"
+    data-bind="
+    css: {'_active': (($parent.komojuMethod() == method.value) && ($parent.getCode() == $parent.isChecked()))},
+    attr: { id: method.value + '-node' }
+    ">
+    <div class="payment-method-title field choice">
+        <input type="radio"
+                name="payment[method]"
+                class="radio"
+                data-bind="
+                attr: {'id': method.value},
+                value: method.value,
+                checked: $parent.komojuMethod,
+                click: $parent.selectPaymentMethod.bind($parent),
+                visible: $parent.isRadioButtonVisible()
+                "/>
+        <label class="label" data-bind="attr: {'for': method.value}">
+            <span data-bind="text: method.displayText"></span>
+        </label>
+    </div>
+    <!-- ko if: $parent.komojuFieldEnabledMethods.includes(method.value) -->
+    <div data-bind="visible: $parent.komojuMethod() === method.value">
+        <komoju-fields
+            data-bind="attr: { 'session': $parent.getSession(), 'payment-type': method.value }"
+            token = ""
+            name="komoju_payment_token"
+            locale="ja"
+            komoju-api="https://komoju.com"
+            publishable-key="pk_test_lgva3j8ims1p3nhk3ut1f88t">
+        </komoju-fields>
+    </div>
+    <!-- /ko -->
+</div>
+<!--/ko-->
 <!--/ko-->
 
 <div class="payment-method-content komoju_payment_billing">

@@ -8,6 +8,7 @@ use Komoju\Payments\Exception\KomojuExceptionBadServer;
 use Komoju\Payments\Exception\InvalidJsonException;
 use Komoju\Payments\Gateway\Config\Config;
 use Magento\Framework\HTTP\Client\Curl;
+use Psr\Log\LoggerInterface;
 use Exception;
 
 class KomojuApi
@@ -33,9 +34,19 @@ class KomojuApi
         return $this->post('/api/v1/sessions', $payload);
     }
 
+    public function paySession($sessionUuid, $payload)
+    {
+        return $this->post('/api/v1/sessions/' . $sessionUuid . '/pay', $payload);
+    }
+
     public function session($sessionUuid)
     {
         return $this->get('/api/v1/sessions/' . $sessionUuid);
+    }
+
+    public function refund($paymentUuid, $payload)
+    {
+        return $this->post('/api/v1/payments/' . $paymentUuid . '/refund', $payload);
     }
 
     private function get($uri)
