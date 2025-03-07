@@ -275,14 +275,23 @@
   
     
     
+      
+  
+  
+  
+    
+    
       <li class="md-tabs__item">
-        <a href="../developer_guide/dev_setup/" class="md-tabs__link">
+        <a href="../developer_guide/setup/dev_setup/" class="md-tabs__link">
           
   
   Developer Guide
 
         </a>
       </li>
+    
+  
+
     
   
 
@@ -510,17 +519,64 @@
   
   
   
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Setup & Environment
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Setup & Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../developer_guide/dev_setup/" class="md-nav__link">
+      <a href="../developer_guide/setup/dev_setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Setup
+    Dev Setup
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -532,21 +588,38 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../developer_guide/events_and_observers/" class="md-nav__link">
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
   
   <span class="md-ellipsis">
-    Events And Observers
+    Development Guidelines
     
   </span>
   
 
-      </a>
-    </li>
-  
-
-              
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Development Guidelines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -555,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../developer_guide/linting/" class="md-nav__link">
+      <a href="../developer_guide/development_guidelines/linting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -577,7 +650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../developer_guide/translations/" class="md-nav__link">
+      <a href="../developer_guide/development_guidelines/translations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -599,16 +672,93 @@
   
   
     <li class="md-nav__item">
-      <a href="../developer_guide/documenting/" class="md-nav__link">
+      <a href="../developer_guide/development_guidelines/documenting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Documenting
+    Documentation Guide
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Magento-Specific Development
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Magento-Specific Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer_guide/magento_core/events_and_observers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Events & Observers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -679,10 +829,10 @@
 <p>To submit our extension to the Magento Marketplace we need to have a collection of Marketing Material. This directory contains all the marketing material supplied to Magento.</p>
 <p>Note: The project README will be converted into a PDF and submitted as the installation guide</p>
 <h2 id="creating-the-zip-package">Creating the zip package</h2>
-<p>When uploading a new version of the extension to the Magento store, you will need to package up the code in a zip file. The zip file needs to be packaged up from <code>src/app/code/Komoju/Payments/</code> for it to be considered valid:</p>
-<pre><code class="language-bash">$ cd src/app/code/Komoju/Payments
-$ zip -r komoju_payments-$VERSION.zip .
-</code></pre>
+<p>When uploading a new version of the extension to the Magento store, you will need to package up the code in a zip file. The zip file needs to be packaged up from <code>src/app/code/Komoju/Payments/</code> for it to be considered valid:
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>src/app/code/Komoju/Payments
+$<span class="w"> </span>zip<span class="w"> </span>-r<span class="w"> </span>komoju_payments-<span class="nv">$VERSION</span>.zip<span class="w"> </span>.
+</code></pre></div></p>
 <p><code>$VERSION</code> should be the version specified in the <a href="../../src/app/code/Komoju/Payments/composer.json"><code>composer.json</code></a> file.</p>
 
 

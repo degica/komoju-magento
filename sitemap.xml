@@ -8,39 +8,39 @@
         <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/developer_guide/dev_setup/</loc>
+        <loc>https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/documenting/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/dev_setup/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/dev_setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/documenting/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/documenting/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/developer_guide/documenting/</loc>
+        <loc>https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/linting/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/documenting/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/documenting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/linting/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/linting/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/developer_guide/events_and_observers/</loc>
+        <loc>https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/translations/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/events_and_observers/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/events_and_observers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/translations/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/translations/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/developer_guide/linting/</loc>
+        <loc>https://tech.degica.com/komoju-magento/developer_guide/magento_core/events_and_observers/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/linting/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/linting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/magento_core/events_and_observers/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/magento_core/events_and_observers/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/developer_guide/translations/</loc>
+        <loc>https://tech.degica.com/komoju-magento/developer_guide/setup/dev_setup/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/translations/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/translations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/setup/dev_setup/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/setup/dev_setup/"/>
     </url>
     <url>
         <loc>https://tech.degica.com/komoju-magento/komoju/benefits/</loc>
@@ -78,39 +78,39 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/dev_setup/</loc>
+        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/documenting/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/dev_setup/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/dev_setup/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/documenting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/documenting/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/documenting/</loc>
+        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/linting/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/documenting/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/documenting/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/linting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/linting/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/events_and_observers/</loc>
+        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/translations/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/events_and_observers/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/events_and_observers/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/development_guidelines/translations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/translations/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/linting/</loc>
+        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/magento_core/events_and_observers/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/linting/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/linting/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/magento_core/events_and_observers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/magento_core/events_and_observers/"/>
     </url>
     <url>
-        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/translations/</loc>
+        <loc>https://tech.degica.com/komoju-magento/ja/developer_guide/setup/dev_setup/</loc>
         <lastmod>2025-03-07</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/translations/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/translations/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://tech.degica.com/komoju-magento/ja/developer_guide/setup/dev_setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tech.degica.com/komoju-magento/developer_guide/setup/dev_setup/"/>
     </url>
     <url>
         <loc>https://tech.degica.com/komoju-magento/ja/komoju/benefits/</loc>

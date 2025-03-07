@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#komoju-magento" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -261,7 +266,7 @@
   
     
   
-  User Guide
+  ユーザーガイド
 
       </a>
     </li>
@@ -274,14 +279,23 @@
   
     
     
+      
+  
+  
+  
+    
+    
       <li class="md-tabs__item">
-        <a href="developer_guide/dev_setup/" class="md-tabs__link">
+        <a href="developer_guide/setup/dev_setup/" class="md-tabs__link">
           
   
-  Developer Guide
+  開発者ガイド
 
         </a>
       </li>
+    
+  
+
     
   
 
@@ -388,6 +402,20 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    概要
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -399,6 +427,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      特長
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      はじめに
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -467,7 +532,7 @@
         
   
   <span class="md-ellipsis">
-    User Guide
+    ユーザーガイド
     
   </span>
   
@@ -501,7 +566,7 @@
             
   
   <span class="md-ellipsis">
-    Developer Guide
+    開発者ガイド
     
   </span>
   
@@ -512,7 +577,46 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Developer Guide
+            開発者ガイド
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    セットアップと環境構築
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            セットアップと環境構築
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -523,11 +627,80 @@
   
   
     <li class="md-nav__item">
-      <a href="developer_guide/dev_setup/" class="md-nav__link">
+      <a href="developer_guide/setup/dev_setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    セットアップ
+    開発環境セットアップ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    開発ガイドライン
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            開発ガイドライン
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="developer_guide/development_guidelines/linting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    リントについて
     
   </span>
   
@@ -545,11 +718,11 @@
   
   
     <li class="md-nav__item">
-      <a href="developer_guide/events_and_observers/" class="md-nav__link">
+      <a href="developer_guide/development_guidelines/translations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Events And Observers
+    翻訳について
     
   </span>
   
@@ -567,16 +740,24 @@
   
   
     <li class="md-nav__item">
-      <a href="developer_guide/linting/" class="md-nav__link">
+      <a href="developer_guide/development_guidelines/documenting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Linting
+    ドキュメント作成ガイド
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -588,12 +769,51 @@
   
   
   
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Magentoの開発関連
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Magentoの開発関連
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="developer_guide/translations/" class="md-nav__link">
+      <a href="developer_guide/magento_core/events_and_observers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Translations
+    イベントとオブザーバー
     
   </span>
   
@@ -604,23 +824,9 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="developer_guide/documenting/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Documenting
-    
-  </span>
-  
-
-      </a>
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -650,6 +856,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      特長
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      はじめに
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -668,10 +902,20 @@
   
 
 
-  <h1>概要</h1>
-
-<p>Install the KOMOJU extension and start growing your business with our innovative payment solutions. We work with financial institutions, payment networks, banks, and wallets so your business doesn't have to. KOMOJU helps thousands of businesses accept payments online. We are a technology company that builds financial products for the internet. We help businesses remove the complexity of payments processing and finance, by providing them with industry-leading payment products that stimulate growth and increase revenue.</p>
-<p>The <a href="https://en.komoju.com/">KOMOJU</a> Japanese Payments extension provides an easy way to accept Japanese payments for your Magento store. During checkout your customer will be shown a hosted checkout page to enter their details, so you don't have to worry about storing credit card details or secret information. Note: Currently the extension only allows payments for stores with JPY as the base currency.</p>
+<h1 id="komoju-magento">KOMOJU-Magento プラグイン</h1>
+<p><a href="https://komoju.com/">KOMOJU</a> は、日本の決済方法を簡単に導入できる主要な決済ゲートウェイです。Magentoストアの運営者は、KOMOJUを利用することで、安全でローカライズされたチェックアウト体験を提供でき、機密な決済情報を直接取り扱う必要がありません。</p>
+<h2 id="_1">特長</h2>
+<ul>
+<li>日本で人気の決済方法に対応</li>
+<li>安全な取引のためのホスト型チェックアウト</li>
+<li>クレジットカード情報の保存不要</li>
+<li><strong>JPY</strong>（日本円）を基準通貨としてサポート</li>
+</ul>
+<h2 id="_2">はじめに</h2>
+<p><a href="https://business.adobe.com/products/magento/magento-commerce.html">KOMOJU</a> をMagentoストアに統合するには、ドキュメントに記載されているインストールおよび設定手順に従ってください。</p>
+<p>🔗 <a href="https://github.com/degica/komoju-magento">GitHub リポジトリ</a><br />
+🔗 <a href="https://komoju.com/">公式ウェブサイト</a></p>
+<p>ご不明な点がございましたら、<a href="mailto:support@degica.com">support@degica.com</a> までお問い合わせください。</p>
 
 
 

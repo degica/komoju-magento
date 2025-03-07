@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://tech.degica.com/komoju-magento/developer_guide/dev_setup/">
+        <link rel="canonical" href="https://tech.degica.com/komoju-magento/developer_guide/development_guidelines/linting/">
       
       
-        <link rel="prev" href="../../user_guide/getting_started/">
+        <link rel="prev" href="../../setup/dev_setup/">
       
       
-        <link rel="next" href="../events_and_observers/">
+        <link rel="next" href="../translations/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
     
     
       
-        <title>Setup - KOMOJU for Magento Plugin Docs</title>
+        <title>Linting - KOMOJU for Magento Plugin Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8608ea7d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dev-setup" class="md-skip">
+        <a href="#linting" class="md-skip">
           Skip to content
         </a>
       
@@ -88,7 +88,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="KOMOJU for Magento Plugin Docs" class="md-header__button md-logo" aria-label="KOMOJU for Magento Plugin Docs" data-md-component="logo">
+    <a href="../../.." title="KOMOJU for Magento Plugin Docs" class="md-header__button md-logo" aria-label="KOMOJU for Magento Plugin Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Setup
+              Linting
             
           </span>
         </div>
@@ -161,7 +161,7 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../../ja/developer_guide/dev_setup/" hreflang="ja" class="md-select__link">
+            <a href="../../../ja/developer_guide/development_guidelines/linting/" hreflang="ja" class="md-select__link">
               日本語
             </a>
           </li>
@@ -245,7 +245,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../.." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           
   
   KOMOJU
@@ -261,7 +261,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../user_guide/getting_started/" class="md-tabs__link">
+      <a href="../../../user_guide/getting_started/" class="md-tabs__link">
         
   
     
@@ -281,14 +281,25 @@
   
     
     
+      
+  
+  
+    
+  
+  
+    
+    
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../../setup/dev_setup/" class="md-tabs__link">
           
   
   Developer Guide
 
         </a>
       </li>
+    
+  
+
     
   
 
@@ -315,7 +326,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="KOMOJU for Magento Plugin Docs" class="md-nav__button md-logo" aria-label="KOMOJU for Magento Plugin Docs" data-md-component="logo">
+    <a href="../../.." title="KOMOJU for Magento Plugin Docs" class="md-nav__button md-logo" aria-label="KOMOJU for Magento Plugin Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -384,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -406,7 +417,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../komoju/benefits/" class="md-nav__link">
+      <a href="../../../komoju/benefits/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -428,7 +439,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../komoju/features/" class="md-nav__link">
+      <a href="../../../komoju/features/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -457,7 +468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../user_guide/getting_started/" class="md-nav__link">
+      <a href="../../../user_guide/getting_started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -519,6 +530,116 @@
                 
   
   
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Setup & Environment
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Setup & Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/dev_setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dev Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Development Guidelines
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Development Guidelines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
     
   
   
@@ -535,7 +656,7 @@
           
   
   <span class="md-ellipsis">
-    Setup
+    Linting
     
   </span>
   
@@ -547,7 +668,7 @@
         
   
   <span class="md-ellipsis">
-    Setup
+    Linting
     
   </span>
   
@@ -570,111 +691,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#before-running-these-steps" class="md-nav__link">
     <span class="md-ellipsis">
-      Prerequisites
+      Before running these steps
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
+  <a href="#checking-for-linting-problems" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Start
+      Checking for Linting problems
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#set-up-magento-account" class="md-nav__link">
+  <a href="#autofixing-linting-problems" class="md-nav__link">
     <span class="md-ellipsis">
-      Set up magento account
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#set-up-ngrok" class="md-nav__link">
-    <span class="md-ellipsis">
-      Set up ngrok
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run Docker
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Run Docker">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#building-the-docker-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Building the docker environment
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setup-magento-store" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup magento store
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Setup magento store">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#logging-into-the-admin-page" class="md-nav__link">
-    <span class="md-ellipsis">
-      Logging into the admin page
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adding-items-to-the-store" class="md-nav__link">
-    <span class="md-ellipsis">
-      Adding items to the store
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configure-the-plugin" class="md-nav__link">
-    <span class="md-ellipsis">
-      Configure the plugin
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lint" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lint
+      Autofixing Linting problems
     </span>
   </a>
   
@@ -684,50 +721,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../events_and_observers/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Events And Observers
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../linting/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Linting
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -766,12 +759,89 @@
         
   
   <span class="md-ellipsis">
-    Documenting
+    Documentation Guide
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Magento-Specific Development
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Magento-Specific Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magento_core/events_and_observers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Events & Observers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -811,111 +881,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#before-running-these-steps" class="md-nav__link">
     <span class="md-ellipsis">
-      Prerequisites
+      Before running these steps
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
+  <a href="#checking-for-linting-problems" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Start
+      Checking for Linting problems
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#set-up-magento-account" class="md-nav__link">
+  <a href="#autofixing-linting-problems" class="md-nav__link">
     <span class="md-ellipsis">
-      Set up magento account
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#set-up-ngrok" class="md-nav__link">
-    <span class="md-ellipsis">
-      Set up ngrok
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-docker" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run Docker
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Run Docker">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#building-the-docker-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Building the docker environment
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setup-magento-store" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup magento store
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Setup magento store">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#logging-into-the-admin-page" class="md-nav__link">
-    <span class="md-ellipsis">
-      Logging into the admin page
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adding-items-to-the-store" class="md-nav__link">
-    <span class="md-ellipsis">
-      Adding items to the store
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configure-the-plugin" class="md-nav__link">
-    <span class="md-ellipsis">
-      Configure the plugin
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lint" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lint
+      Autofixing Linting problems
     </span>
   </a>
   
@@ -940,81 +926,21 @@
   
 
 
-<h1 id="dev-setup">Dev Setup</h1>
-<p>This document will guide you through setting up your machine to develop the module locally. The development environment is based off of <a href="https://github.com/markshust/docker-magento">Mark Shust's docker configuration</a></p>
-<h2 id="prerequisites">Prerequisites</h2>
-<ol>
-<li>Have Docker installed on your local machine</li>
-<li>Ensure Docker has enough resources to run properly (in the docker settings set the resources to about half for CPU, RAM and Swap)</li>
-<li>Have access to a <a href="https://marketplace.magento.com/">magento marketplace</a> account</li>
-</ol>
-<h2 id="quick-start">Quick Start</h2>
-<ol>
-<li>Open your browser and ready for your access key. <a href="https://commercemarketplace.adobe.com/customer/accessKeys/">Link</a></li>
-<li>Open terminal, execute <code>./setup</code></li>
-<li>In the middle, please write your public key in <code>username</code>, your private key in <code>password</code>.</li>
-<li>You also need to type your machine's account password in the progress.</li>
-<li>When the setup process finishes, open https://magento.test</li>
-<li>After setup process is done, you can run with <code>./run</code> via terminal.</li>
-</ol>
-<p>Please check <a href="#setup-magento-store">Setup Magento Store</a></p>
-<h2 id="set-up-magento-account">Set up magento account</h2>
-<p>Once you have a magento account, you can create an access key <a href="https://marketplace.magento.com/customer/accessKeys/">here</a>. Once you have the public and private key you need to place them in the <code>~/.composer/auth.json</code>:</p>
-<pre><code class="language-json">{
-  &quot;http-basic&quot;: {
-    &quot;repo.magento.com&quot;: {
-      &quot;username&quot;: &quot;public key goes here&quot;,
-      &quot;password&quot;: &quot;private key goes here&quot;
-    }
-  }
-}
-</code></pre>
-<h2 id="set-up-ngrok">Set up ngrok</h2>
-<p>Because Komoju uses webhooks to alert systems to updates to the transactions, the dev environment needs to be publicly accessible on the internet.<a href="https://ngrok.com/">Ngrok</a> is the easiest solution for this. If possible it's best to pick a static address, so you won't have to manually change the address in Magento each time. Once you have a stable address to run it from start it with the following command:</p>
-<pre><code class="language-bash">$ ~/ngrok http 443 &lt;ngrok endpoint&gt;
-</code></pre>
-<p>For example if the site was going to be run from https://degicaexample.au.ngrok.io then the ngrok command would look like:</p>
-<pre><code>~/ngrok http 443 -region au --subdomain=degicaexample
-</code></pre>
-<h2 id="run-docker">Run Docker</h2>
-<p><strong>NOTE:</strong> You only need to run the following commands once. After everything is set up you can use <code>bin/start</code> and <code>bin/stop</code> to start and stop the Magent dev environment.</p>
-<h3 id="building-the-docker-environment">Building the docker environment</h3>
-<p>You can create the docker environment with the following command:</p>
-<pre><code class="language-bash">$ docker-compose build --build-arg MAGENTO_VERSION=$MAGENTO_VERSION
-# $MAGENTO_VERSION is the version of Magento you wish to use. For example,
-# if you wanted to use 2.3.4 then you would run:
-# docker-compose build --build-arg MAGENTO_VERSION=2.3.4
-</code></pre>
-<p>Once the docker container is built, run the setup command to configure Magento.</p>
-<pre><code class="language-bash">$ bin/setup $NGROK_DOMAIN
-</code></pre>
-<p>Where <code>$NGROK_DOMAIN</code> is the ngrok endpoint (minus the https:// part) set up in a previous step. Using the example above for https://degicaexample.au.ngrok.io the command would be:</p>
-<pre><code>$ bin/setup degicaexample.au.ngrok.io
-</code></pre>
-<p>Let that run (it can take a while). Once done the magento website will be available on the ngrok endpoint.</p>
-<h2 id="setup-magento-store">Setup magento store<a name="setup-magento-store"></a></h2>
-<p>To set up the store to be able to test changes to the plugin you will need to have some items for sale as well configuring the plugin to correctly communicate with Komoju. To do this you will first need to log into the admin page.</p>
-<h3 id="logging-into-the-admin-page">Logging into the admin page</h3>
-<ul>
-<li>Open <a href="https://magento.test/admin">the admin page</a></li>
-</ul>
-<p>Going to this page you will be prompted for admin credentials, which you can find in <a href="https://github.com/degica/komoju-magento/blob/master/env/magento.env">ENV file</a></p>
-<h3 id="adding-items-to-the-store">Adding items to the store</h3>
-<p>Once inside the admin page, click the "Catalog" option on the left menu and then click the "Add Product" button. Fill in the required fields as well as:</p>
-<ul>
-<li>Categories: Make sure the item has at least one category</li>
-<li>Quantity: Set to a large enough number you won't run out during testing (eg, 1000)</li>
-<li>Stock Status: Set to "In Stock"</li>
-</ul>
-<h2 id="configure-the-plugin">Configure the plugin</h2>
-<ol>
-<li>To Configure the plugin, go the admin page and click on "Stores" in the left menu, and then click on "Configuration" in the submenu.</li>
-<li>Once on the Configuration page, there should be a "General" menu on the left, next to the main admin menu. Scroll down to the "Sales" section, expand it and click on "Payment Methods"</li>
-<li>Click "Configure" next to Komoju to configure the plugin.</li>
-<li>Update with the relevant Komoju account details</li>
-</ol>
-<h2 id="lint">Lint</h2>
-<p>See <a href="../linting/">Linting</a> for php/js linting.</p>
+<h1 id="linting">Linting</h1>
+<p>For the Magento plugin to be available on the Magento store, we need to adhere to <a href="https://devdocs.magento.com/guides/v2.3/coding-standards/bk-coding-standards.html">Magento's coding standards</a> for PHP and JavaScript. To make this easier for developers working on this project, we've added some commands to the project to make checking and fix linting problems easier.</p>
+<h2 id="before-running-these-steps">Before running these steps</h2>
+<p>Make sure that the docker dev environment is already running. It can be started with:</p>
+<div class="highlight"><pre><span></span><code>bin/start
+</code></pre></div>
+<h2 id="checking-for-linting-problems">Checking for Linting problems</h2>
+<p>To check for any linting problems run the following command from the root of the project:</p>
+<div class="highlight"><pre><span></span><code>bin/lint-check
+</code></pre></div>
+<h2 id="autofixing-linting-problems">Autofixing Linting problems</h2>
+<p>Some linters have the option to automatically fix the certain problems. To try this run the following command from the root of the project:</p>
+<p><strong>Note:</strong> It's a good idea to commit any changes you want to keep before running this command, in case the linter changes the code in a way you don't want and you need to revert.</p>
+<div class="highlight"><pre><span></span><code>bin/lint-autofix
+</code></pre></div>
 
 
 
@@ -1079,10 +1005,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "navigation.tabs", "navigation.top"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
   </body>
