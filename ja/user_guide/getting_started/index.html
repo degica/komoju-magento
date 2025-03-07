@@ -1027,9 +1027,13 @@ php<span class="w"> </span>bin/magento<span class="w"> </span>setup:static-conte
 <h2 id="_3">📌 プラグインの設定</h2>
 <p>インストール後、Magentoの管理画面で設定を行います。</p>
 <ol>
-<li><strong>管理画面で以下のパスに移動</strong><br />
-<strong>Stores</strong> &gt; <strong>Sales</strong> &gt; <strong>Payment Methods</strong> &gt; <strong>KOMOJU</strong> &gt; <strong>API設定</strong>  </li>
-<li><strong><a href="https://komoju.com/admin/merchant_settings">KOMOJUマーチャント設定ページ</a> にあるアカウント情報を入力</strong></li>
+<li>
+<p><strong>管理画面で以下のパスに移動</strong><br />
+<strong>Stores</strong> &gt; <strong>Sales</strong> &gt; <strong>Payment Methods</strong> &gt; <strong>KOMOJU</strong> &gt; <strong>API設定</strong></p>
+</li>
+<li>
+<p><strong><a href="https://komoju.com/admin/merchant_settings">KOMOJUマーチャント設定ページ</a> にあるアカウント情報を入力</strong></p>
+</li>
 </ol>
 <p><img alt="KOMOJU ダッシュボード" src="../../assets/images/komoju_magento_setting.jpg" title="KOMOJU ダッシュボード" /></p>
 <h3 id="api">API設定</h3>
@@ -1043,25 +1047,35 @@ php<span class="w"> </span>bin/magento<span class="w"> </span>setup:static-conte
 <hr />
 <h2 id="komoju-webhook">📌 KOMOJU Webhookの設定</h2>
 <ol>
-<li><strong><a href="https://komoju.com/merchant/webhooks">KOMOJUダッシュボードのWebhookページ</a> にアクセスし、</strong>「新しいWebhookを作成」<strong>をクリック</strong></li>
-<li>Webhookを設定します。例えば、MagentoのURLが <code>https://magento.komoju.com</code> の場合、Webhook URLは <code>https://magento.komoju.com/komoju/hostedpage/webhook</code> となります。</li>
-</ol>
+<li>
+<p><strong><a href="https://komoju.com/merchant/webhooks">KOMOJUダッシュボードのWebhookページ</a> にアクセスし、</strong>「新しいWebhookを作成」<strong>をクリック</strong></p>
+</li>
+<li>
+<p>Webhookを設定します。</p>
+<p><code>&lt;your-magento-domain&gt;/komoju/hostedpage/webhook</code></p>
 <p><em>(<code>&lt;your-magento-domain&gt;</code> を実際のストアのドメインに置き換えてください。)</em></p>
+<p>例えば、MagentoのURLが <strong>https://magento.komoju.com</strong> の場合、Webhook URLは <strong>https://magento.komoju.com/komoju/hostedpage/webhook</strong> となります。</p>
 <p><img alt="KOMOJU 新規Webhook作成" src="../../assets/images/komoju_webhook_01.jpg" title="新しいWebhookの作成" /></p>
-<ol>
-<li><strong>シークレットを設定</strong>し、以下のイベントを有効にします：</li>
+</li>
+<li>
+<p><strong>シークレットを設定</strong>し、以下のイベントを有効にします：</p>
+<ul>
 <li><code>payment.authorized</code></li>
 <li><code>payment.captured</code></li>
 <li><code>payment.expired</code></li>
 <li><code>payment.cancelled</code></li>
 <li><code>payment.refunded</code></li>
 <li><code>payment.refund.created</code></li>
-</ol>
-<p><img alt="KOMOJU Webhook URL設定" src="../../assets/images/komoju_webhook_02.jpg" title="URLの設定" /></p>
-<p><img alt="KOMOJU 支払いイベント設定" src="../../assets/images/komoju_webhook_03.jpg" title="イベントの設定" /></p>
-<ol>
-<li><strong>Webhookを作成</strong>し、<strong>Webhookシークレットをコピー</strong>  </li>
-<li><strong>Magentoの管理画面で</strong>「KOMOJU」 &gt; 「API設定」 &gt; 「Webhookシークレット」に入力</li>
+</ul>
+<p><img alt="KOMOJU Webhook URL設定" src="../../assets/images/komoju_webhook_02.jpg" title="URLの設定" />
+<img alt="KOMOJU 支払いイベント設定" src="../../assets/images/komoju_webhook_03.jpg" title="イベントの設定" /></p>
+</li>
+<li>
+<p><strong>Webhookを作成</strong>し、<strong>Webhookシークレットをコピー</strong></p>
+</li>
+<li>
+<p><strong>Magentoの管理画面で</strong>「KOMOJU」 &gt; 「API設定」 &gt; 「Webhookシークレット」に入力</p>
+</li>
 </ol>
 <hr />
 <h2 id="_4">📌 お問い合わせ</h2>

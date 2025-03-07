@@ -514,6 +514,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#installation-instructions" class="md-nav__link">
     <span class="md-ellipsis">
       📌 Installation Instructions
@@ -911,6 +920,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#installation-instructions" class="md-nav__link">
     <span class="md-ellipsis">
       📌 Installation Instructions
@@ -996,7 +1014,8 @@
 
 
 <h1 id="komoju-magento-plugin-quick-start-guide">KOMOJU-Magento Plugin Quick Start Guide</h1>
-<p>Enhance your Magento store with <strong>KOMOJU</strong>, the leading payment gateway for Japanese payment methods. Before proceeding, ensure you have:</p>
+<p>Enhance your Adobe Commerce (Magento) store with KOMOJU, the trusted payment gateway for smooth and secure Japanese payment processing.</p>
+<h2 id="prerequisites">📌 Prerequisites</h2>
 <ul>
 <li>A <a href="https://business.adobe.com/products/magento/magento-commerce.html">Adobe Commerce (Magento) account</a></li>
 <li>A <a href="https://komoju.com/">KOMOJU account</a></li>
@@ -1005,10 +1024,11 @@
 <h2 id="installation-instructions">📌 Installation Instructions</h2>
 <h3 id="installing-the-module-manually">Installing the Module Manually</h3>
 <ol>
-<li><strong>Download</strong> the latest version of the module from the <a href="https://github.com/degica/komoju-magento/releases">GitHub release page</a>.</li>
-<li><strong>Upload</strong> the downloaded file to your Magento server.</li>
 <li>
-<p><strong>Unzip</strong> the file directly into your <code>$MAGENTO_INSTALL/app/code</code> directory:</p>
+<p><strong>Download the latest module</strong> from the <a href="https://github.com/degica/komoju-magento/releases">GitHub release page</a>.</p>
+</li>
+<li>
+<p><strong>Extract the module files</strong> into your Magento installation directory:</p>
 <div class="highlight"><pre><span></span><code>unzip<span class="w"> </span>komoju-magento-release.zip<span class="w"> </span>-d<span class="w"> </span><span class="nv">$MAGENTO_INSTALL</span>/src/app/code
 </code></pre></div>
 <p><em>(Replace <code>$MAGENTO_INSTALL</code> with your actual Magento install path.)</em></p>
@@ -1026,9 +1046,13 @@ php<span class="w"> </span>bin/magento<span class="w"> </span>setup:static-conte
 <h2 id="configuring-the-plugin">📌 Configuring the Plugin</h2>
 <p>After installation, configure the plugin in your Magento admin panel:</p>
 <ol>
-<li><strong>Navigate to</strong>:<br />
-<strong>Stores</strong> &gt; <strong>Sales</strong> &gt; <strong>Payment Methods</strong> &gt; <strong>KOMOJU</strong> &gt; <strong>API Settings</strong>  </li>
-<li><strong>Enter your KOMOJU account details</strong> as found on your <a href="https://komoju.com/admin/merchant_settings">KOMOJU merchant settings page</a>.</li>
+<li>
+<p>In your Magento Admin Panel, navigate to:</p>
+<p><strong>Stores</strong> &gt; <strong>Sales</strong> &gt; <strong>Payment Methods</strong> &gt; <strong>KOMOJU</strong> &gt; <strong>API Settings</strong>  </p>
+</li>
+<li>
+<p><strong>Enter your KOMOJU account details</strong> as found on your <a href="https://komoju.com/admin/merchant_settings">KOMOJU merchant settings page</a>.</p>
+</li>
 </ol>
 <p><img alt="KOMOJU dashboard" src="../../assets/images/komoju_magento_setting.jpg" title="KOMOJU dashboard" /></p>
 <h3 id="api-settings">API Settings</h3>
@@ -1042,27 +1066,39 @@ php<span class="w"> </span>bin/magento<span class="w"> </span>setup:static-conte
 <hr />
 <h2 id="configuring-the-komoju-webhook">📌 Configuring the KOMOJU Webhook</h2>
 <ol>
-<li><strong>Go to</strong> your <a href="https://komoju.com/merchant/webhooks">KOMOJU dashboard’s Webhook page</a> and click <strong>"New Webhook"</strong>.</li>
-<li>Set up a webhook from your KOMOJU dashboard. For example, if your Magento URL is https://magento.komoju.com, then your Webhook URL would be https://magento.komoju.com/komoju/hostedpage/webhook.</li>
-</ol>
+<li>
+<p><strong>Visit your <a href="https://komoju.com/merchant/webhooks">KOMOJU dashboard’s Webhook page</a></strong> and click <strong>"New Webhook"</strong>.</p>
+</li>
+<li>
+<p><strong>Set the Webhook URL</strong> to:</p>
+<div class="highlight"><pre><span></span><code>&lt;your-magento-domain&gt;/komoju/hostedpage/webhook
+</code></pre></div>
 <p><em>(Replace <code>&lt;your-magento-domain&gt;</code> with your store’s actual domain.)</em></p>
+<p>For example, if your Magento URL is <strong>https://magento.komoju.com</strong>, then your Webhook URL would be <strong>https://magento.komoju.com/komoju/hostedpage/webhook</strong>.</p>
 <p><img alt="KOMOJU Create New Webhook" src="../../assets/images/komoju_webhook_01.jpg" title="Create a new Webhook" /></p>
-<ol>
-<li><strong>Choose a secret</strong> and enable the following events:</li>
+</li>
+<li>
+<p><strong>Choose a secret</strong> and enable the following events:</p>
+<ul>
 <li><code>payment.authorized</code></li>
 <li><code>payment.captured</code></li>
 <li><code>payment.expired</code></li>
 <li><code>payment.cancelled</code></li>
 <li><code>payment.refunded</code></li>
 <li><code>payment.refund.created</code></li>
+</ul>
+<p><img alt="KOMOJU Set Webhook URL" src="../../assets/images/komoju_webhook_02.jpg" title="Set URL" /><br />
+<img alt="KOMOJU Set Payment Events" src="../../assets/images/komoju_webhook_03.jpg" title="Set Events" /></p>
+</li>
+<li>
+<p><strong>Save the Webhook</strong>, then copy the <strong>Webhook Secret</strong> provided.</p>
+</li>
+<li>
+<p><strong>In your Magento admin panel</strong>, navigate to:</p>
+<p><strong>KOMOJU</strong> &gt; <strong>API Settings</strong> &gt; <strong>Webhook Secret</strong></p>
+<p>Paste the copied <strong>Webhook Secret</strong>.</p>
+</li>
 </ol>
-<p><img alt="KOMOJU Set Webhook URL" src="../../assets/images/komoju_webhook_02.jpg" title="Set URL" /></p>
-<p><img alt="KOMOJU Set Payment Events" src="../../assets/images/komoju_webhook_03.jpg" title="Set Events" /></p>
-<ol>
-<li><strong>Create the Webhook</strong>, then copy the <strong>Webhook Secret</strong>.</li>
-<li><strong>Enter the Webhook Secret</strong> in your Magento admin panel under <strong>KOMOJU</strong> &gt; <strong>API Settings</strong> &gt; <strong>Webhook Secret</strong>.</li>
-</ol>
-<hr />
 <h2 id="contact-us">📌 Contact Us</h2>
 <p>If you have any questions or concerns, feel free to reach out to our support team at:<br />
 <a href="mailto:support@degica.com">support@degica.com</a></p>
