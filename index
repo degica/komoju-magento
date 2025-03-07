@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-bin/magento indexer:status
-bin/magento indexer:reset
-bin/magento indexer:reindex
-
